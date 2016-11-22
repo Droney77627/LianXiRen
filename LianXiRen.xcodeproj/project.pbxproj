@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AFD6C21DE4A3D600C2A0A7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFD6BB1DE4A3D600C2A0A7 /* FMDatabase.m */; };
+		03AFD6C31DE4A3D600C2A0A7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFD6BD1DE4A3D600C2A0A7 /* FMDatabaseAdditions.m */; };
+		03AFD6C41DE4A3D600C2A0A7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFD6BF1DE4A3D600C2A0A7 /* FMResultSet.m */; };
+		03AFD6C51DE4A3D600C2A0A7 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 03AFD6C01DE4A3D600C2A0A7 /* LICENSE.txt */; };
+		03AFD6C81DE4A3E600C2A0A7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AFD6C71DE4A3E600C2A0A7 /* libsqlite3.tbd */; };
+		03AFD6CB1DE4A41A00C2A0A7 /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFD6CA1DE4A41A00C2A0A7 /* addViewController.m */; };
 		04C4D7321DE448070034B4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4D7311DE448070034B4C7 /* main.m */; };
 		04C4D7351DE448070034B4C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4D7341DE448070034B4C7 /* AppDelegate.m */; };
 		04C4D7381DE448070034B4C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C4D7371DE448070034B4C7 /* ViewController.m */; };
@@ -27,6 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03AFD6BA1DE4A3D600C2A0A7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		03AFD6BB1DE4A3D600C2A0A7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		03AFD6BC1DE4A3D600C2A0A7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		03AFD6BD1DE4A3D600C2A0A7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		03AFD6BE1DE4A3D600C2A0A7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		03AFD6BF1DE4A3D600C2A0A7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		03AFD6C01DE4A3D600C2A0A7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		03AFD6C71DE4A3E600C2A0A7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		03AFD6C91DE4A41A00C2A0A7 /* addViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addViewController.h; sourceTree = "<group>"; };
+		03AFD6CA1DE4A41A00C2A0A7 /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addViewController.m; sourceTree = "<group>"; };
 		04C4D72C1DE448070034B4C7 /* LianXiRen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LianXiRen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C4D7301DE448070034B4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C4D7311DE448070034B4C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AFD6C81DE4A3E600C2A0A7 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +77,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03AFD6C11DE4A3D600C2A0A7 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				03AFD6BA1DE4A3D600C2A0A7 /* FMDatabase.h */,
+				03AFD6BB1DE4A3D600C2A0A7 /* FMDatabase.m */,
+				03AFD6BC1DE4A3D600C2A0A7 /* FMDatabaseAdditions.h */,
+				03AFD6BD1DE4A3D600C2A0A7 /* FMDatabaseAdditions.m */,
+				03AFD6BE1DE4A3D600C2A0A7 /* FMResultSet.h */,
+				03AFD6BF1DE4A3D600C2A0A7 /* FMResultSet.m */,
+				03AFD6C01DE4A3D600C2A0A7 /* LICENSE.txt */,
+			);
+			name = FMDB;
+			path = "../ZhiYou/11-22/tongxunluFMDB/FMDB";
+			sourceTree = "<group>";
+		};
+		03AFD6C61DE4A3E600C2A0A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03AFD6C71DE4A3E600C2A0A7 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04C4D7231DE448070034B4C7 = {
 			isa = PBXGroup;
 			children = (
+				03AFD6C11DE4A3D600C2A0A7 /* FMDB */,
 				04C4D72E1DE448070034B4C7 /* LianXiRen */,
 				04C4D7481DE448070034B4C7 /* LianXiRenTests */,
 				04C4D72D1DE448070034B4C7 /* Products */,
+				03AFD6C61DE4A3E600C2A0A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +127,8 @@
 				04C4D7341DE448070034B4C7 /* AppDelegate.m */,
 				04C4D7361DE448070034B4C7 /* ViewController.h */,
 				04C4D7371DE448070034B4C7 /* ViewController.m */,
+				03AFD6C91DE4A41A00C2A0A7 /* addViewController.h */,
+				03AFD6CA1DE4A41A00C2A0A7 /* addViewController.m */,
 				04C4D7391DE448070034B4C7 /* Main.storyboard */,
 				04C4D73C1DE448070034B4C7 /* Images.xcassets */,
 				04C4D73E1DE448070034B4C7 /* LaunchScreen.xib */,
@@ -199,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AFD6C51DE4A3D600C2A0A7 /* LICENSE.txt in Resources */,
 				04C4D73B1DE448070034B4C7 /* Main.storyboard in Resources */,
 				04C4D7401DE448070034B4C7 /* LaunchScreen.xib in Resources */,
 				04C4D73D1DE448070034B4C7 /* Images.xcassets in Resources */,
@@ -219,9 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AFD6C41DE4A3D600C2A0A7 /* FMResultSet.m in Sources */,
+				03AFD6CB1DE4A41A00C2A0A7 /* addViewController.m in Sources */,
 				04C4D7381DE448070034B4C7 /* ViewController.m in Sources */,
 				04C4D7351DE448070034B4C7 /* AppDelegate.m in Sources */,
 				04C4D7321DE448070034B4C7 /* main.m in Sources */,
+				03AFD6C21DE4A3D600C2A0A7 /* FMDatabase.m in Sources */,
+				03AFD6C31DE4A3D600C2A0A7 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +319,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -311,7 +360,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -412,6 +461,7 @@
 				04C4D7511DE448070034B4C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C4D7521DE448070034B4C7 /* Build configuration list for PBXNativeTarget "LianXiRenTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +470,7 @@
 				04C4D7541DE448070034B4C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
